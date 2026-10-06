@@ -22,7 +22,7 @@ Copy `plugins/heard-product-feedback/skills/heard-product-feedback/` into your s
 4. **Verify & report** — `scripts/heard.py build` checks quote substrings, IDs, coverage and intensity bounds, computes counts and ranking, and renders `report.html`.
 5. **Validate** — drafts a bounded spec and falsifiable validation questions for the accepted top theme.
 
-Licensed under MIT. Mirror: [GitLab](https://gitlab.com/ipylypenko/heard-product-feedback).
+Licensed under MIT. See [PRIVACY.md](PRIVACY.md) for data handling.
 
 Requires Python 3 and file access in the host. Tests: `cd plugins/heard-product-feedback/skills/heard-product-feedback/scripts && python -m unittest test_heard`.
 
