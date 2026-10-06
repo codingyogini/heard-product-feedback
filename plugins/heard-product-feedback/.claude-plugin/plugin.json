@@ -14,5 +14,8 @@
     "roadmap",
     "prioritization"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "privacyPolicyUrl": "https://github.com/codingyogini/heard-product-feedback/blob/main/PRIVACY.md",
+  "supportUrl": "https://github.com/codingyogini/heard-product-feedback/issues",
+  "documentationUrl": "https://github.com/codingyogini/heard-product-feedback#readme"
 }
