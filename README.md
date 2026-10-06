@@ -1,4 +1,5 @@
-# Heard — a product feedback Claude Skill
+# Heard — product feedback to verified decisions
+
 A Claude skill that collects **permitted public** product feedback, clusters it into themes, verifies every quote and count in code, and produces a self-contained HTML report with proposed **Build / Watch / Ignore** calls. The PM keeps the final decision.
 
 By [Irene Pylypenko](https://irenepylypenko.com).
@@ -6,7 +7,7 @@ By [Irene Pylypenko](https://irenepylypenko.com).
 ## Install in Claude Code
 
 ```
-/plugin marketplace add https://gitlab.com/ipylypenko/heard-product-feedback.git
+/plugin marketplace add codingyogini/heard-product-feedback
 /plugin install heard-product-feedback@irene-pylypenko
 ```
 
@@ -21,6 +22,8 @@ Copy `plugins/heard-product-feedback/skills/heard-product-feedback/` into your s
 3. **Analyze** — the model assigns every record to themes or excludes it with a reason, and proposes a verdict per theme with counterevidence.
 4. **Verify & report** — `scripts/heard.py build` checks quote substrings, IDs, coverage and intensity bounds, computes counts and ranking, and renders `report.html`.
 5. **Validate** — drafts a bounded spec and falsifiable validation questions for the accepted top theme.
+
+Licensed under MIT. Mirror: [GitLab](https://gitlab.com/ipylypenko/heard-product-feedback).
 
 Requires Python 3 and file access in the host. Tests: `cd plugins/heard-product-feedback/skills/heard-product-feedback/scripts && python -m unittest test_heard`.
 
