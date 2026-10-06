@@ -1,0 +1,14 @@
+interface:
+  display_name: Heard-product-feedback
+  short_description: Turn public feedback into verified product decisions
+  default_prompt: Use $heard-product-feedback to collect permitted public feedback
+    and create a verified decision report.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

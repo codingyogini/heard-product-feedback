@@ -1,0 +1,24 @@
+{
+  "product": "REPLACE_WITH_PRODUCT",
+  "confirmed": false,
+  "sources": [
+    {
+      "id": "public-feed",
+      "family": "publisher-a",
+      "adapter": "rss",
+      "url": "https://example.com/feedback.xml",
+      "permission": "unverified",
+      "permission_evidence": "",
+      "limit": 200
+    },
+    {
+      "id": "manual-reviews",
+      "family": "publisher-b",
+      "adapter": "manual",
+      "path": "reviews.json",
+      "permission": "unverified",
+      "permission_evidence": "",
+      "limit": 200
+    }
+  ]
+}

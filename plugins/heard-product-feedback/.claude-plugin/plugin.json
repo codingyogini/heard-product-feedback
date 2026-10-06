@@ -1,0 +1,9 @@
+{
+  "name": "heard-product-feedback",
+  "description": "Turn permitted public product feedback into a verified, evidence-backed Build/Watch/Ignore decision report.",
+  "version": "1.0.0",
+  "author": { "name": "Irene Pylypenko", "url": "https://irenepylypenko.com" },
+  "homepage": "https://gitlab.com/ipylypenko/heard-product-feedback",
+  "repository": "https://gitlab.com/ipylypenko/heard-product-feedback",
+  "keywords": ["product-management", "customer-feedback", "roadmap", "prioritization"]
+}
