@@ -1,5 +1,4 @@
-# Heard — product feedback to verified decisions
-
+# Heard — a product feedback Claude Skill
 A Claude skill that collects **permitted public** product feedback, clusters it into themes, verifies every quote and count in code, and produces a self-contained HTML report with proposed **Build / Watch / Ignore** calls. The PM keeps the final decision.
 
 By [Irene Pylypenko](https://irenepylypenko.com).
