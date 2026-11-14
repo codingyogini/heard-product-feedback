@@ -1,6 +1,6 @@
 # Collection boundaries
 
-Adapters are format implementations, not blanket licenses. Recheck exact terms for each run. Record permission evidence and retrieval date in the plan. Honour robots.txt for automated public endpoint retrieval; fail closed on inaccessible/ambiguous robots. Use HTTPS only, public DNS addresses, no credentials, bounded response sizes, no redirects, no bypasses. Collector has no authenticated API support. Never log credentials.
+Adapters are format implementations, not blanket licenses. Recheck exact terms for each run. Record permission evidence and retrieval date in the plan. Honour robots.txt for automated public endpoint retrieval; fail closed on inaccessible/ambiguous robots. Use HTTPS only, public DNS addresses, no credentials, bounded response sizes, no redirects, no bypasses. Heard has no authenticated API support. Never log credentials.
 
 | Source | Release behavior |
 |---|---|

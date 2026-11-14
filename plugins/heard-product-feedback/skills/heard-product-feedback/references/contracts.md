@@ -1,9 +1,9 @@
 # Data contracts and scoring v1
 
 ## Inputs
-Manual imports are JSON arrays. Each record requires `text` (nonempty string), `url` (public HTTPS URL), and optionally `date` (ISO date), `rating` (number), `role` (explicit displayed role, not inferred). Unknown fields including author/name/handle are discarded. Collector assigns `id`, `source`, `family`, `collected_at` and `content_hash`; never supply model-generated source records. IDs hash source plus URL and text. Identical normalized text is deduplicated across sources; duplicate occurrences are recorded in a separate ledger, so breadth can be understated. Review that limitation. Anonymous record counts are not unique-person counts.
+Manual imports are JSON arrays. Each record requires `text` (nonempty string), `url` (public HTTPS URL), and optionally `date` (ISO date), `rating` (number), `role` (explicit displayed role, not inferred). Unknown fields including author/name/handle are discarded. Each record gets `id`, `source`, `family` and `collected_at` at collection (the full edition also adds `content_hash` and hashes IDs from source, URL and text); never supply model-generated source records. Identical normalized text is deduplicated across sources; duplicate occurrences are recorded in a separate ledger, so breadth can be understated. Review that limitation. Anonymous record counts are not unique-person counts.
 
-Collector output: `{product, collected_at, sources, failures, duplicates, records}`. Sources preserve permission evidence, adapter, endpoint and retrieval counts; raw responses are not stored. Native RSS HTML is converted to plain text deterministically; quotes refer to that immutable extracted text, not HTML markup. Manually supplied text is preserved verbatim.
+Collection output: `{product, collected_at, sources, failures, duplicates, records}`. Sources preserve permission evidence, adapter, endpoint and retrieval counts; raw responses are not stored. Native RSS HTML is converted to plain text before analysis; quotes refer to that immutable extracted text, not HTML markup. Manually supplied text is preserved verbatim.
 
 ## Model output
 Create this JSON shape. Every record ID must occur exactly once in assignments, including exclusions. Each included assignment can have multiple unique theme IDs. Intensity uses 1=mild inconvenience; 2=recurring friction/workaround; 3=blocked task or material stated loss. Zero is permitted for no stated intensity. Require `rationale` on every assignment. Do not infer financial loss from sentiment.
@@ -40,9 +40,15 @@ Denominator: all deduplicated collected records, including exclusions. Component
 - Breadth: represented source families / successfully collected source families with records. Not population representativeness.
 Score = 45*mention_share + 25*intensity + 20*recency + 10*breadth. This heuristic is unvalidated. Weight sliders normalize weights to total 100; verdicts never change automatically. Theme counts overlap when records express multiple issues. Never sum them as unique customers.
 
-## Commands
-`collect PLAN --out records.json`
-`prepare records.json --out batches` (default 40 records/batch)
-`build records.json analysis.json --out report.html [--decisions decisions.json]`
-`links records.json --out link-check.json` (separate optional network check)
-All outputs are local. External publishing/integration is separate. Build also writes computed report JSON and a CSV draft beside the HTML. CSV is a generic transfer format, not a guaranteed vendor-specific import.
+## Verification checklist
+Run all checks before reporting; any failure blocks the report until fixed.
+1. Every quote `text` is an exact, case-sensitive substring of the referenced record's text.
+2. Every quote references a record assigned to that theme.
+3. Every record ID in assignments exists in records.json, and every record appears exactly once.
+4. Every theme has at least one assigned record and one quote; no theme ID is unused or undefined.
+5. Intensity is an integer 0–3; every assignment has a rationale.
+6. Dates are valid ISO dates and not after the collection date.
+7. Counts are distinct assigned records per theme; scores use the formula above with the stated denominator.
+8. accepted/edited themes carry `reviewer` and `decision_reason`.
+
+In the directory edition these checks are model-checked, or computed with code written at run time when the host can execute code. The full edition (`scripts/heard.py` at https://github.com/codingyogini/heard-product-feedback/tree/5308cac81707f71499c83083db3a976e12544f87/plugins/heard-product-feedback/skills/heard-product-feedback) enforces them in code with `collect`, `prepare`, `build` and `links` commands and renders a self-contained HTML report.

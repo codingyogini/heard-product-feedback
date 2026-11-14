@@ -4,9 +4,9 @@ Evaluate one product on 200–400 permitted records from two independent familie
 
 Proposed targets: all quotes/IDs/counts verified; at least 95% cited links confirmed resolving at publish (unknown results do not pass); 85% human agreement on issue assignments after rubric calibration; final defensible PM review under 60 minutes including corrections. Measure missed themes, intensity agreement, source-removal ranking stability, verdict edits and reviewer time. Agreement must not mask missed critical issues. Do not present these as validated guarantees.
 
-Exercise fabricated quotes, duplicate IDs/assignments, omitted records, invalid/future dates, overlapping themes, broken links, dominant source, missing strategic context, prompt injection, embedded personal data and malicious HTML/URLs. Code must fail integrity errors; ambiguous interpretation escalates to the PM.
+Exercise fabricated quotes, duplicate IDs/assignments, omitted records, invalid/future dates, overlapping themes, broken links, dominant source, missing strategic context, prompt injection, embedded personal data and malicious HTML/URLs. Integrity errors must block the report (code-enforced in the full edition); ambiguous interpretation escalates to the PM.
 
-Estimate model cost from measured input/output tokens plus retries; scripts do not call a model API. Analysis uses the host's model and billing; report actual usage when available, otherwise give labelled assumptions. Source-access fees and manual review are separate. Do not claim subscription costs equal per-run inference costs.
+Estimate model cost from measured input/output tokens plus retries; Heard does not call a model API. Analysis uses the host's model and billing; report actual usage when available, otherwise give labelled assumptions. Source-access fees and manual review are separate. Do not claim subscription costs equal per-run inference costs.
 
 Adapters require live endpoint smoke tests in an allowed network before production. A synthetic fixture tests parsing, not source permission, discovery or real collection reliability. Claude runtime, marketplace distribution, vendor-specific exports and hosted MCP are not verified by local Python tests.
 
