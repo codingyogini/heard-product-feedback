@@ -1,0 +1,1965 @@
+{
+ "brief": "Worked example of the Heard skill on SurveyMonkey's mobile apps. Segment: people who create surveys in the iOS and Android apps. Goal: rank which problems to validate next. Delivery cost, team capacity and strategy were not supplied and are treated as unknown. No internal data was used. Every verdict is a proposal awaiting a PM decision.",
+ "blind_spots": [
+  "Only 1–3★ reviews were collected from both stores, so satisfied users and praise are absent by design.",
+  "Two source families, both mobile app stores. Web users, enterprise admins and review sites (G2 excluded by policy; Capterra, Reddit not collected) are missing.",
+  "Apple's feed gives no per-review link; App Store quotes link to the product's review listing (url_scope: product-fallback).",
+  "Records were collected on 2026-09-22 and imported for this report on 2026-11-13; recency is measured from the import date.",
+  "Records are anonymous reviews, not unique people. Theme counts overlap and must not be summed.",
+  "One reader made every clustering and intensity call; no second-rater agreement check was run.",
+  "SurveyMonkey runs no public ideas board, so there is no company channel to compare against."
+ ],
+ "assignments": [
+  {
+   "record_id": "r_2ed2f01d0813413d7fab",
+   "theme_ids": [
+    "ladder"
+   ],
+   "intensity": 2,
+   "rationale": "Standard plan priced for teams; free limits stop an occasional user"
+  },
+  {
+   "record_id": "r_9a3b393a429bc5383f0a",
+   "theme_ids": [
+    "paywall"
+   ],
+   "intensity": 3,
+   "rationale": "Question cap discovered mid-build; survey could not be finished"
+  },
+  {
+   "record_id": "r_50aec3f84876b5771cd8",
+   "theme_ids": [
+    "paywall"
+   ],
+   "intensity": 3,
+   "rationale": "Responses locked after sending; cap not disclosed at creation"
+  },
+  {
+   "record_id": "r_c253b232f92be546e664",
+   "theme_ids": [
+    "access",
+    "support"
+   ],
+   "intensity": 3,
+   "rationale": "Signed out, reset code never arrives, no route to help"
+  },
+  {
+   "record_id": "r_ce5de178be3e6b0a616c",
+   "theme_ids": [
+    "wrong-app"
+   ],
+   "intensity": 3,
+   "rationale": "Rewards panel member reporting lost earnings; not a creator"
+  },
+  {
+   "record_id": "r_4a47ac208d5e5e1545e3",
+   "theme_ids": [
+    "paywall",
+    "billing"
+   ],
+   "intensity": 3,
+   "rationale": "Response cap hit, then $50 credits unusable and refund refused"
+  },
+  {
+   "record_id": "r_efd3819ea2c9206fc1c5",
+   "theme_ids": [
+    "access"
+   ],
+   "intensity": 2,
+   "rationale": "Device limit restricts access to account data"
+  },
+  {
+   "record_id": "r_4676b3e04fc346cf854b",
+   "theme_ids": [
+    "paywall"
+   ],
+   "intensity": 3,
+   "rationale": "Answers blocked until payment"
+  },
+  {
+   "record_id": "r_7058f11229d1c101e2b3",
+   "theme_ids": [
+    "parity"
+   ],
+   "intensity": 2,
+   "rationale": "Excel export unavailable in app without subscription"
+  },
+  {
+   "record_id": "r_40c2bc1a2234a12f5e3a",
+   "theme_ids": [
+    "parity"
+   ],
+   "intensity": 2,
+   "rationale": "Reorder and survey intro do not work on mobile"
+  },
+  {
+   "record_id": "r_569dc502c51ddc251acb",
+   "theme_ids": [
+    "crashes",
+    "support"
+   ],
+   "intensity": 3,
+   "rationale": "Account and survey erased at share time; no contact route"
+  },
+  {
+   "record_id": "r_c1b4d12d6251da2ebc78",
+   "theme_ids": [
+    "ladder"
+   ],
+   "intensity": 2,
+   "rationale": "Free limits too small, paid tier too expensive"
+  },
+  {
+   "record_id": "r_947876201f5a50fb307a",
+   "theme_ids": [
+    "paywall"
+   ],
+   "intensity": 3,
+   "rationale": "Told only after sending that results need an upgrade"
+  },
+  {
+   "record_id": "r_4f657519d1c7c3ed40e3",
+   "theme_ids": [
+    "access"
+   ],
+   "intensity": 3,
+   "rationale": "Verification email never arrives; survey cannot be sent"
+  },
+  {
+   "record_id": "r_4c2847d5d70d2056e7d3",
+   "theme_ids": [
+    "access",
+    "parity"
+   ],
+   "intensity": 3,
+   "rationale": "No verification email and cannot edit or save on iPhone"
+  },
+  {
+   "record_id": "r_2de0d03a67c25b469b21",
+   "theme_ids": [],
+   "intensity": 0,
+   "rationale": "About a workplace manager, not the product"
+  },
+  {
+   "record_id": "r_73196891cc8c3b449f0d",
+   "theme_ids": [
+    "access"
+   ],
+   "intensity": 3,
+   "rationale": "Login error on every attempt"
+  },
+  {
+   "record_id": "r_7cca6532e24ed45e8545",
+   "theme_ids": [
+    "paywall"
+   ],
+   "intensity": 3,
+   "rationale": "Paywall on responses revealed after sending"
+  },
+  {
+   "record_id": "r_1163e89c3ca03b066f0b",
+   "theme_ids": [
+    "access"
+   ],
+   "intensity": 3,
+   "rationale": "Email verification never sent after building a survey"
+  },
+  {
+   "record_id": "r_087931b553ef61cc90d6",
+   "theme_ids": [
+    "ladder",
+    "paywall"
+   ],
+   "intensity": 3,
+   "rationale": "No affordable short-term plan; limits not clear at the outset"
+  },
+  {
+   "record_id": "r_540813bd64e0b07f9ace",
+   "theme_ids": [
+    "parity"
+   ],
+   "intensity": 3,
+   "rationale": "Template questions cannot be edited in the app"
+  },
+  {
+   "record_id": "r_fcc29ccfa5f8b532dbdf",
+   "theme_ids": [
+    "billing"
+   ],
+   "intensity": 3,
+   "rationale": "Charged four years after cancelling"
+  },
+  {
+   "record_id": "r_a60232c1c578da04304e",
+   "theme_ids": [
+    "ladder"
+   ],
+   "intensity": 1,
+   "rationale": "No one-time payment option"
+  },
+  {
+   "record_id": "r_42527b42ffa34b2c5590",
+   "theme_ids": [
+    "paywall"
+   ],
+   "intensity": 3,
+   "rationale": "Responses beyond 10 locked behind an annual plan"
+  },
+  {
+   "record_id": "r_426b54d54b97d94541dc",
+   "theme_ids": [
+    "crashes"
+   ],
+   "intensity": 3,
+   "rationale": "Crashes on launch after reinstall"
+  },
+  {
+   "record_id": "r_ea43f577860faabb3d55",
+   "theme_ids": [
+    "parity"
+   ],
+   "intensity": 2,
+   "rationale": "Individual respondent view is blank"
+  },
+  {
+   "record_id": "r_210752bbc0fcecb6d7b0",
+   "theme_ids": [
+    "paywall"
+   ],
+   "intensity": 3,
+   "rationale": "10-response cap with deletion threat, disclosed only after responses"
+  },
+  {
+   "record_id": "r_ba25dbec7c1b19977c09",
+   "theme_ids": [
+    "ladder"
+   ],
+   "intensity": 2,
+   "rationale": "Small business cannot afford the only paid tiers"
+  },
+  {
+   "record_id": "r_159a039e6b134165487f",
+   "theme_ids": [
+    "paywall"
+   ],
+   "intensity": 3,
+   "rationale": "Event sign-ups locked after 10; had to resend to neighbours"
+  },
+  {
+   "record_id": "r_4b8c4220e9125869c15f",
+   "theme_ids": [
+    "ladder"
+   ],
+   "intensity": 1,
+   "rationale": "Price too high for a small business"
+  },
+  {
+   "record_id": "r_4f45f1ccfa934ecd211b",
+   "theme_ids": [
+    "wrong-app"
+   ],
+   "intensity": 1,
+   "rationale": "Expects surveys to take; not a creator"
+  },
+  {
+   "record_id": "r_6d490d75258d7b84a610",
+   "theme_ids": [
+    "paywall"
+   ],
+   "intensity": 3,
+   "rationale": "Could not see responses past 10 without paying; respondents had to resubmit"
+  },
+  {
+   "record_id": "r_13d4c864ae79a03d071c",
+   "theme_ids": [
+    "parity"
+   ],
+   "intensity": 2,
+   "rationale": "Notifications arrive days late"
+  },
+  {
+   "record_id": "r_c3396d66abefa4c0f7f4",
+   "theme_ids": [
+    "paywall"
+   ],
+   "intensity": 3,
+   "rationale": "Respondent cap disclosed only after responses arrived"
+  },
+  {
+   "record_id": "r_80ece9ddce6d26acfe5f",
+   "theme_ids": [
+    "paywall"
+   ],
+   "intensity": 3,
+   "rationale": "Cap revealed after sending a one-off survey"
+  },
+  {
+   "record_id": "r_a706ec667ac2aaf128c2",
+   "theme_ids": [
+    "access"
+   ],
+   "intensity": 3,
+   "rationale": "Cannot reach the login screen in the app"
+  },
+  {
+   "record_id": "r_5b1165184c5ba8f6e54f",
+   "theme_ids": [
+    "paywall"
+   ],
+   "intensity": 2,
+   "rationale": "Paid question types flagged only at send time, without saying which"
+  },
+  {
+   "record_id": "r_d9416ffa63a399ad1692",
+   "theme_ids": [
+    "paywall"
+   ],
+   "intensity": 3,
+   "rationale": "Student blocked at 10 responses without prior warning"
+  },
+  {
+   "record_id": "r_58d6685da626a0fed0ba",
+   "theme_ids": [
+    "ladder"
+   ],
+   "intensity": 1,
+   "rationale": "General complaint about pricing"
+  },
+  {
+   "record_id": "r_c811363972ee59903571",
+   "theme_ids": [
+    "paywall"
+   ],
+   "intensity": 3,
+   "rationale": "Responses beyond 10 locked; limit not mentioned until passed"
+  },
+  {
+   "record_id": "r_3b8190a14db5688c3c23",
+   "theme_ids": [
+    "ladder"
+   ],
+   "intensity": 1,
+   "rationale": "Free tier unsuitable for casual use"
+  },
+  {
+   "record_id": "r_1ea4adc46d5881a8934b",
+   "theme_ids": [
+    "paywall"
+   ],
+   "intensity": 3,
+   "rationale": "Cannot send a finished survey without subscribing"
+  },
+  {
+   "record_id": "r_35b9aa71c6c9507d9b33",
+   "theme_ids": [
+    "billing",
+    "support"
+   ],
+   "intensity": 3,
+   "rationale": "Unable to cancel auto-renewing corporate account; bot-only support"
+  },
+  {
+   "record_id": "r_fb70ff661e337dea9789",
+   "theme_ids": [
+    "ladder"
+   ],
+   "intensity": 1,
+   "rationale": "Free version only suits one-time use; paid too expensive"
+  },
+  {
+   "record_id": "r_f23076991ccb6c398dac",
+   "theme_ids": [
+    "paywall"
+   ],
+   "intensity": 3,
+   "rationale": "Paid features blocked sharing; not specified up front"
+  },
+  {
+   "record_id": "r_d5cad5a5080ab8b11e27",
+   "theme_ids": [
+    "paywall"
+   ],
+   "intensity": 3,
+   "rationale": "Response limit unclear; results locked"
+  },
+  {
+   "record_id": "r_e2dd36ec5d682f5446b2",
+   "theme_ids": [
+    "ladder"
+   ],
+   "intensity": 1,
+   "rationale": "Monthly price compared unfavourably to other software"
+  },
+  {
+   "record_id": "r_14c48d6e2f890dd363c7",
+   "theme_ids": [
+    "ladder",
+    "paywall"
+   ],
+   "intensity": 3,
+   "rationale": "Would pay $25-50; locked out of 5 client responses"
+  },
+  {
+   "record_id": "r_16828e5c46e1eb9c4510",
+   "theme_ids": [
+    "paywall"
+   ],
+   "intensity": 3,
+   "rationale": "Club election responses locked after 10"
+  },
+  {
+   "record_id": "r_7cfcce6a0f3b64895b4e",
+   "theme_ids": [
+    "crashes"
+   ],
+   "intensity": 3,
+   "rationale": "Crashes on every open after update"
+  },
+  {
+   "record_id": "r_73d6ae53a12775bd1c9f",
+   "theme_ids": [
+    "crashes"
+   ],
+   "intensity": 3,
+   "rationale": "Crashes on open"
+  },
+  {
+   "record_id": "r_8b087165b9ab40226ca0",
+   "theme_ids": [
+    "paywall"
+   ],
+   "intensity": 3,
+   "rationale": "Cap mentioned only after the survey went out"
+  },
+  {
+   "record_id": "r_2fe2e9e3fff473758b9b",
+   "theme_ids": [
+    "ladder",
+    "paywall"
+   ],
+   "intensity": 3,
+   "rationale": "Cannot view wedding guest responses without a costly plan"
+  },
+  {
+   "record_id": "r_dd245facf043733acbdb",
+   "theme_ids": [
+    "ladder"
+   ],
+   "intensity": 1,
+   "rationale": "Monthly plan too expensive for a student"
+  },
+  {
+   "record_id": "r_04d3e97fe051038a274f",
+   "theme_ids": [
+    "ladder",
+    "paywall"
+   ],
+   "intensity": 3,
+   "rationale": "Cap not shown during trial; forced onto most expensive plan"
+  },
+  {
+   "record_id": "r_aac07b7cf42c5776cc4b",
+   "theme_ids": [
+    "ladder"
+   ],
+   "intensity": 2,
+   "rationale": "Response cap and monthly price"
+  },
+  {
+   "record_id": "r_06645d266a1f9e1f102d",
+   "theme_ids": [],
+   "intensity": 0,
+   "rationale": "No specific issue stated"
+  },
+  {
+   "record_id": "r_296b464eca3dfcf3e52e",
+   "theme_ids": [
+    "ladder"
+   ],
+   "intensity": 2,
+   "rationale": "Paid plan needed for an 11th question"
+  },
+  {
+   "record_id": "r_b1c4fb6c0cf7271bcee4",
+   "theme_ids": [
+    "paywall"
+   ],
+   "intensity": 3,
+   "rationale": "Basic plan no longer lets the survey be sent"
+  },
+  {
+   "record_id": "r_1a5bc8e095d91c7b86cc",
+   "theme_ids": [
+    "crashes"
+   ],
+   "intensity": 3,
+   "rationale": "Crashes four out of five launches"
+  },
+  {
+   "record_id": "r_1378a6eb164313d9952e",
+   "theme_ids": [
+    "support",
+    "ladder"
+   ],
+   "intensity": 2,
+   "rationale": "Help pages will not load; price complaint"
+  },
+  {
+   "record_id": "r_f8b6616f6ed6518cf0e9",
+   "theme_ids": [
+    "billing",
+    "support"
+   ],
+   "intensity": 3,
+   "rationale": "Cannot get refund; phone support requires an upgrade"
+  },
+  {
+   "record_id": "r_914473ef8b9977085693",
+   "theme_ids": [
+    "ladder",
+    "paywall"
+   ],
+   "intensity": 2,
+   "rationale": "Annual-only price disclosed after two hours of building"
+  },
+  {
+   "record_id": "r_5ac3bff159d95cda853b",
+   "theme_ids": [
+    "paywall"
+   ],
+   "intensity": 3,
+   "rationale": "Response cap applied retroactively to running surveys"
+  },
+  {
+   "record_id": "r_8d83eb766a1c7ac92cc5",
+   "theme_ids": [
+    "parity"
+   ],
+   "intensity": 1,
+   "rationale": "Image choices not shown in results"
+  },
+  {
+   "record_id": "r_f7a11244f5691d78e263",
+   "theme_ids": [
+    "paywall"
+   ],
+   "intensity": 3,
+   "rationale": "Family survey locked at 40 responses after the link went out"
+  },
+  {
+   "record_id": "r_3872daf598e3b5b07e91",
+   "theme_ids": [
+    "wrong-app"
+   ],
+   "intensity": 3,
+   "rationale": "Rewards member locked out near a reward; not a creator"
+  },
+  {
+   "record_id": "r_cf38bdd510203acab263",
+   "theme_ids": [
+    "paywall"
+   ],
+   "intensity": 3,
+   "rationale": "Work survey locked after 40 votes; not in description"
+  },
+  {
+   "record_id": "r_5c85be962d8bd3315b6a",
+   "theme_ids": [
+    "parity"
+   ],
+   "intensity": 1,
+   "rationale": "Cannot find how to delete pages or move questions"
+  },
+  {
+   "record_id": "r_ce7d073edaccf956b292",
+   "theme_ids": [
+    "parity"
+   ],
+   "intensity": 2,
+   "rationale": "Individual responses unavailable in app"
+  },
+  {
+   "record_id": "r_f6815983a307d0d65a10",
+   "theme_ids": [
+    "paywall"
+   ],
+   "intensity": 3,
+   "rationale": "Locked at 40; respondents must retake elsewhere"
+  },
+  {
+   "record_id": "r_222043e423653e3e92b7",
+   "theme_ids": [
+    "paywall"
+   ],
+   "intensity": 3,
+   "rationale": "Conflicting limits online and in store; locked at 40"
+  },
+  {
+   "record_id": "r_30c415abe5497352eb24",
+   "theme_ids": [
+    "billing"
+   ],
+   "intensity": 3,
+   "rationale": "Export incomplete after paid period; told to pay again"
+  },
+  {
+   "record_id": "r_8f0454c8811cf0a448f0",
+   "theme_ids": [
+    "billing"
+   ],
+   "intensity": 3,
+   "rationale": "Cannot cancel auto-renew after an hour of trying"
+  },
+  {
+   "record_id": "r_3da7be108aef95aebfe9",
+   "theme_ids": [
+    "access"
+   ],
+   "intensity": 3,
+   "rationale": "Company SSO login hangs"
+  },
+  {
+   "record_id": "r_616825acd9d84a48dd15",
+   "theme_ids": [
+    "paywall"
+   ],
+   "intensity": 3,
+   "rationale": "School project responses locked over 40"
+  },
+  {
+   "record_id": "r_19675ad1e76860481967",
+   "theme_ids": [
+    "paywall"
+   ],
+   "intensity": 3,
+   "rationale": "Organisation voting tool capped at 40 without warning"
+  },
+  {
+   "record_id": "r_af7839f9e525b53039d8",
+   "theme_ids": [
+    "crashes"
+   ],
+   "intensity": 3,
+   "rationale": "Crashes mid-question and loses work"
+  },
+  {
+   "record_id": "r_ea966953c150228b3cbe",
+   "theme_ids": [
+    "paywall",
+    "billing",
+    "support"
+   ],
+   "intensity": 3,
+   "rationale": "Paid upgrade not applied after cap; support no help"
+  },
+  {
+   "record_id": "r_c8cd5e998733f9f85584",
+   "theme_ids": [
+    "access"
+   ],
+   "intensity": 3,
+   "rationale": "Account recovery loops; cannot log in"
+  },
+  {
+   "record_id": "r_202ee35cd26de0c6988d",
+   "theme_ids": [
+    "wrong-app",
+    "support"
+   ],
+   "intensity": 2,
+   "rationale": "Rewards member waiting days for support"
+  },
+  {
+   "record_id": "r_02c913503da5fe565d80",
+   "theme_ids": [
+    "paywall"
+   ],
+   "intensity": 2,
+   "rationale": "Must pay to see all survey data"
+  },
+  {
+   "record_id": "r_5e578d1509a5528e97aa",
+   "theme_ids": [
+    "parity"
+   ],
+   "intensity": 2,
+   "rationale": "Individual responses load blank on phone and tablet"
+  },
+  {
+   "record_id": "r_b245e289a30498f92190",
+   "theme_ids": [
+    "parity"
+   ],
+   "intensity": 1,
+   "rationale": "Deleted surveys still appear; slow loading"
+  },
+  {
+   "record_id": "r_00ab4f1068f59539be74",
+   "theme_ids": [
+    "parity",
+    "support"
+   ],
+   "intensity": 2,
+   "rationale": "Offline mode only on enterprise; contact requires paid plan"
+  },
+  {
+   "record_id": "r_cece71d907ccf4c9e0e0",
+   "theme_ids": [
+    "billing"
+   ],
+   "intensity": 3,
+   "rationale": "Charged again after cancelling"
+  },
+  {
+   "record_id": "r_4571557a3ab4ad521c2f",
+   "theme_ids": [
+    "wrong-app"
+   ],
+   "intensity": 1,
+   "rationale": "Expected to be paid for surveys"
+  },
+  {
+   "record_id": "r_064a8cc20f2e5e601694",
+   "theme_ids": [
+    "access"
+   ],
+   "intensity": 3,
+   "rationale": "Server connection error when sharing"
+  },
+  {
+   "record_id": "r_5ea0d0959958e6c56f73",
+   "theme_ids": [
+    "crashes"
+   ],
+   "intensity": 3,
+   "rationale": "Crashes on every template"
+  },
+  {
+   "record_id": "r_eb70bb7467659b86fc9c",
+   "theme_ids": [
+    "crashes"
+   ],
+   "intensity": 3,
+   "rationale": "Closes on open on iPhone and iPad"
+  },
+  {
+   "record_id": "r_5716f8988d1c68cbc38e",
+   "theme_ids": [
+    "ladder"
+   ],
+   "intensity": 2,
+   "rationale": "Free tier shrunk to 10 questions; paid too expensive"
+  },
+  {
+   "record_id": "r_6755858c748d03816344",
+   "theme_ids": [
+    "parity",
+    "support"
+   ],
+   "intensity": 2,
+   "rationale": "Matrix column cannot be added; support behind payment"
+  },
+  {
+   "record_id": "r_4695df826ec0991656f0",
+   "theme_ids": [],
+   "intensity": 0,
+   "rationale": "Question about charity donations, no product issue"
+  },
+  {
+   "record_id": "r_a27405a1de14532ed13f",
+   "theme_ids": [
+    "parity",
+    "ladder"
+   ],
+   "intensity": 2,
+   "rationale": "Item limit and missing image questions; wants cheaper tier"
+  },
+  {
+   "record_id": "r_a52e222df8db13d0559e",
+   "theme_ids": [
+    "access"
+   ],
+   "intensity": 3,
+   "rationale": "iPad session timeout blocks sign-in"
+  },
+  {
+   "record_id": "r_2977b8644ce1bd1caec9",
+   "theme_ids": [
+    "parity"
+   ],
+   "intensity": 2,
+   "rationale": "No dashboard across surveys in app"
+  },
+  {
+   "record_id": "r_5ff1502be6ac144505e0",
+   "theme_ids": [
+    "billing"
+   ],
+   "intensity": 3,
+   "rationale": "Fixed-term plan auto-renewed"
+  },
+  {
+   "record_id": "r_6c84c163308fe782dac3",
+   "theme_ids": [
+    "wrong-app"
+   ],
+   "intensity": 1,
+   "rationale": "Expected rewards for taking surveys"
+  },
+  {
+   "record_id": "r_a38605892c0f80185edf",
+   "theme_ids": [
+    "parity"
+   ],
+   "intensity": 1,
+   "rationale": "Cannot delete second question"
+  },
+  {
+   "record_id": "r_870eb063913d68a1c0db",
+   "theme_ids": [
+    "wrong-app"
+   ],
+   "intensity": 2,
+   "rationale": "Survey-taker screened out; not a creator"
+  },
+  {
+   "record_id": "r_f9a30cb85f1b65bda1fb",
+   "theme_ids": [
+    "access"
+   ],
+   "intensity": 3,
+   "rationale": "Error messages on every action"
+  },
+  {
+   "record_id": "r_d8ca8d0a812a28b2fe4b",
+   "theme_ids": [
+    "access"
+   ],
+   "intensity": 3,
+   "rationale": "Cannot paste password; cannot log in"
+  },
+  {
+   "record_id": "r_508e13edeac579815dcd",
+   "theme_ids": [
+    "wrong-app"
+   ],
+   "intensity": 3,
+   "rationale": "Respondent cannot open survey links in the app"
+  },
+  {
+   "record_id": "r_1d3408529056bd802c96",
+   "theme_ids": [
+    "billing"
+   ],
+   "intensity": 2,
+   "rationale": "Cannot exit contract"
+  },
+  {
+   "record_id": "r_61fb077de41a6c998b4f",
+   "theme_ids": [
+    "wrong-app"
+   ],
+   "intensity": 1,
+   "rationale": "Looking for surveys to take"
+  },
+  {
+   "record_id": "r_30337cf5fc85869bfe12",
+   "theme_ids": [
+    "paywall"
+   ],
+   "intensity": 3,
+   "rationale": "Responses over 100 locked"
+  },
+  {
+   "record_id": "r_cd6506259d0e0d36a59a",
+   "theme_ids": [
+    "wrong-app"
+   ],
+   "intensity": 2,
+   "rationale": "Contribute member gets error on surveys tab"
+  },
+  {
+   "record_id": "r_e68218a760afc17ef803",
+   "theme_ids": [
+    "crashes",
+    "ladder"
+   ],
+   "intensity": 2,
+   "rationale": "Edits not saved; limited options without premium"
+  },
+  {
+   "record_id": "r_098d9babde7d5f6ccfd7",
+   "theme_ids": [
+    "wrong-app"
+   ],
+   "intensity": 1,
+   "rationale": "No surveys available to take"
+  },
+  {
+   "record_id": "r_bb9388a18da95edc0cab",
+   "theme_ids": [
+    "parity"
+   ],
+   "intensity": 1,
+   "rationale": "Shared results show analytics only"
+  },
+  {
+   "record_id": "r_3636fc285e8d6b11abb3",
+   "theme_ids": [
+    "parity"
+   ],
+   "intensity": 2,
+   "rationale": "Individual responses load blank"
+  },
+  {
+   "record_id": "r_fc4e8b6144e5d7621405",
+   "theme_ids": [
+    "access",
+    "support"
+   ],
+   "intensity": 3,
+   "rationale": "Office 365 sign-in fails; support email bounces"
+  },
+  {
+   "record_id": "r_5652795fc018ab1a8e9f",
+   "theme_ids": [
+    "parity"
+   ],
+   "intensity": 1,
+   "rationale": "Cannot remove a response option"
+  },
+  {
+   "record_id": "r_d5c71c6bf68fc9a2b304",
+   "theme_ids": [
+    "parity"
+   ],
+   "intensity": 2,
+   "rationale": "Editing and deleting items unavailable in app"
+  },
+  {
+   "record_id": "r_7b281915c670d3270cb9",
+   "theme_ids": [
+    "ladder"
+   ],
+   "intensity": 3,
+   "rationale": "Cannot send survey links without a $39/month plan"
+  },
+  {
+   "record_id": "r_7b6b91676b431cf45ed6",
+   "theme_ids": [
+    "parity"
+   ],
+   "intensity": 1,
+   "rationale": "Cannot add intro text"
+  },
+  {
+   "record_id": "r_045622bb803176c446ed",
+   "theme_ids": [
+    "access"
+   ],
+   "intensity": 2,
+   "rationale": "Cannot contact server"
+  },
+  {
+   "record_id": "r_6bd8e02a35e5d4ab4651",
+   "theme_ids": [
+    "wrong-app"
+   ],
+   "intensity": 1,
+   "rationale": "No surveys to take"
+  },
+  {
+   "record_id": "r_106b04ef2f355fc2f776",
+   "theme_ids": [
+    "access",
+    "support"
+   ],
+   "intensity": 2,
+   "rationale": "Surveys missing in app; phone support premium only"
+  },
+  {
+   "record_id": "r_3da986464b946854b52e",
+   "theme_ids": [
+    "wrong-app"
+   ],
+   "intensity": 3,
+   "rationale": "Recipient of a survey link cannot open it"
+  },
+  {
+   "record_id": "r_7402d8818a56a7025393",
+   "theme_ids": [
+    "wrong-app"
+   ],
+   "intensity": 2,
+   "rationale": "Missing rewards; server errors"
+  },
+  {
+   "record_id": "r_98b344b680e9790880fe",
+   "theme_ids": [
+    "crashes"
+   ],
+   "intensity": 2,
+   "rationale": "Crashes and freezes"
+  },
+  {
+   "record_id": "r_533777624ad83e142b34",
+   "theme_ids": [
+    "parity"
+   ],
+   "intensity": 3,
+   "rationale": "App lacks respondent names; whole team must redo survey"
+  },
+  {
+   "record_id": "r_1615cf6d842542ded5a9",
+   "theme_ids": [
+    "crashes"
+   ],
+   "intensity": 2,
+   "rationale": "Hangs on every use"
+  },
+  {
+   "record_id": "r_393faa27710397de250f",
+   "theme_ids": [
+    "wrong-app"
+   ],
+   "intensity": 1,
+   "rationale": "Survey-taker reward system complaint"
+  },
+  {
+   "record_id": "r_734261db5ce5619dd955",
+   "theme_ids": [
+    "parity"
+   ],
+   "intensity": 2,
+   "rationale": "Cannot filter by metadata in app"
+  },
+  {
+   "record_id": "r_02d1b9074068c1b59de7",
+   "theme_ids": [
+    "wrong-app"
+   ],
+   "intensity": 1,
+   "rationale": "No surveys available to take"
+  },
+  {
+   "record_id": "r_25ff44a2feb5f7ff512e",
+   "theme_ids": [],
+   "intensity": 0,
+   "rationale": "Single request for Arabic language support; no other record raises localisation"
+  },
+  {
+   "record_id": "r_08f83d867a92409c5b5d",
+   "theme_ids": [
+    "access"
+   ],
+   "intensity": 3,
+   "rationale": "Correct credentials rejected"
+  },
+  {
+   "record_id": "r_66ed6e579f31af7f3c21",
+   "theme_ids": [
+    "crashes"
+   ],
+   "intensity": 3,
+   "rationale": "Quits immediately after update"
+  },
+  {
+   "record_id": "r_ecab3623fd4ef6bf2e14",
+   "theme_ids": [
+    "wrong-app"
+   ],
+   "intensity": 1,
+   "rationale": "Wants more surveys to take"
+  },
+  {
+   "record_id": "r_39028e14c71bed65a55d",
+   "theme_ids": [
+    "crashes"
+   ],
+   "intensity": 3,
+   "rationale": "Install never completes"
+  },
+  {
+   "record_id": "r_2eeb39edd943efabbe79",
+   "theme_ids": [
+    "parity"
+   ],
+   "intensity": 1,
+   "rationale": "Results cut off on screen"
+  },
+  {
+   "record_id": "r_5d02e700d5a2eb5d4027",
+   "theme_ids": [
+    "access"
+   ],
+   "intensity": 3,
+   "rationale": "Google and Facebook sign-in fail"
+  },
+  {
+   "record_id": "r_481979534e0e50f91b0e",
+   "theme_ids": [
+    "parity"
+   ],
+   "intensity": 2,
+   "rationale": "White label does not work in app"
+  },
+  {
+   "record_id": "r_2e388a2dfbc31281db79",
+   "theme_ids": [
+    "parity"
+   ],
+   "intensity": 3,
+   "rationale": "Could not present results to a client"
+  },
+  {
+   "record_id": "r_f30a08ad46cfc42765f7",
+   "theme_ids": [
+    "parity"
+   ],
+   "intensity": 3,
+   "rationale": "Edits not accepted on app or web"
+  },
+  {
+   "record_id": "r_0a09674929b825313890",
+   "theme_ids": [
+    "crashes"
+   ],
+   "intensity": 2,
+   "rationale": "Freezes when viewing results"
+  },
+  {
+   "record_id": "r_b7394b0f04c70d3b8f73",
+   "theme_ids": [
+    "access"
+   ],
+   "intensity": 3,
+   "rationale": "Google sign-in does not work"
+  },
+  {
+   "record_id": "r_017c7be959be01923090",
+   "theme_ids": [
+    "crashes"
+   ],
+   "intensity": 3,
+   "rationale": "Crashes before sign-in"
+  },
+  {
+   "record_id": "r_4346c4188cd2c0fa1cc2",
+   "theme_ids": [
+    "access"
+   ],
+   "intensity": 1,
+   "rationale": "Must sign in every time; poor connection"
+  },
+  {
+   "record_id": "r_295d17dc52f559bd6375",
+   "theme_ids": [
+    "access"
+   ],
+   "intensity": 1,
+   "rationale": "Must sign in every time"
+  },
+  {
+   "record_id": "r_b5e393f5ddd27ab3d4d1",
+   "theme_ids": [
+    "access"
+   ],
+   "intensity": 1,
+   "rationale": "Sign-in forgotten half the time"
+  },
+  {
+   "record_id": "r_265ad8ca5dcf6266655f",
+   "theme_ids": [
+    "wrong-app"
+   ],
+   "intensity": 2,
+   "rationale": "Survey recipient pushed to install creator app"
+  },
+  {
+   "record_id": "r_f2afc95097d39352ef03",
+   "theme_ids": [
+    "access"
+   ],
+   "intensity": 3,
+   "rationale": "Cannot sign up or sign in"
+  },
+  {
+   "record_id": "r_c43012f04bd4050c3c95",
+   "theme_ids": [
+    "access"
+   ],
+   "intensity": 1,
+   "rationale": "Credentials not remembered"
+  },
+  {
+   "record_id": "r_5c69c6f9d01b17d61a54",
+   "theme_ids": [
+    "crashes"
+   ],
+   "intensity": 3,
+   "rationale": "Crashes after half an hour of work"
+  },
+  {
+   "record_id": "r_544aa68f25de9cbd85fa",
+   "theme_ids": [
+    "crashes"
+   ],
+   "intensity": 1,
+   "rationale": "Error messages; surveys not updating"
+  },
+  {
+   "record_id": "r_eccc327f602c30af2250",
+   "theme_ids": [
+    "crashes"
+   ],
+   "intensity": 3,
+   "rationale": "Cannot open the app"
+  },
+  {
+   "record_id": "r_d40ca9bfd13173416e31",
+   "theme_ids": [
+    "access"
+   ],
+   "intensity": 3,
+   "rationale": "Correct password rejected"
+  },
+  {
+   "record_id": "r_3047f258cb0282056a70",
+   "theme_ids": [
+    "access"
+   ],
+   "intensity": 3,
+   "rationale": "Login returns \"can't be found\""
+  },
+  {
+   "record_id": "r_b22f5456da4cbaf79b30",
+   "theme_ids": [
+    "access"
+   ],
+   "intensity": 3,
+   "rationale": "No confirmation email; cannot change address"
+  },
+  {
+   "record_id": "r_e050990298372f3ca7bb",
+   "theme_ids": [
+    "paywall"
+   ],
+   "intensity": 2,
+   "rationale": "Paywall after 25 responses not advertised"
+  },
+  {
+   "record_id": "r_15d2449807ad6bd4be7e",
+   "theme_ids": [
+    "wrong-app"
+   ],
+   "intensity": 3,
+   "rationale": "Survey-taker never compensated"
+  },
+  {
+   "record_id": "r_933e6bf5a31e29427a5f",
+   "theme_ids": [],
+   "intensity": 0,
+   "rationale": "No intelligible issue"
+  },
+  {
+   "record_id": "r_af9cabaf94a7d672d4be",
+   "theme_ids": [
+    "wrong-app"
+   ],
+   "intensity": 3,
+   "rationale": "Rewards app verification failures"
+  },
+  {
+   "record_id": "r_d0790955980a7fe122e7",
+   "theme_ids": [
+    "wrong-app"
+   ],
+   "intensity": 2,
+   "rationale": "Rewards app: no surveys; accessibility issue with TalkBack"
+  },
+  {
+   "record_id": "r_a78c76252e2b965d3ab3",
+   "theme_ids": [
+    "wrong-app"
+   ],
+   "intensity": 2,
+   "rationale": "Rewards gift card not received"
+  },
+  {
+   "record_id": "r_92440b55c248233dd5cb",
+   "theme_ids": [
+    "ladder"
+   ],
+   "intensity": 2,
+   "rationale": "One 100-person survey forces monthly or annual plan"
+  },
+  {
+   "record_id": "r_ecfda871b9bacb02b1ba",
+   "theme_ids": [
+    "support"
+   ],
+   "intensity": 2,
+   "rationale": "Paid user cannot get an answer from bot or human support"
+  },
+  {
+   "record_id": "r_0a637cdfb9630397e676",
+   "theme_ids": [
+    "wrong-app"
+   ],
+   "intensity": 3,
+   "rationale": "Rewards balance lost"
+  },
+  {
+   "record_id": "r_64ca2bcf8e81a46e2605",
+   "theme_ids": [
+    "access"
+   ],
+   "intensity": 3,
+   "rationale": "Android app: page not found after login"
+  },
+  {
+   "record_id": "r_d944a11c8e411063e531",
+   "theme_ids": [
+    "access"
+   ],
+   "intensity": 3,
+   "rationale": "Sign-in hangs loading"
+  },
+  {
+   "record_id": "r_11a3b5806055bb60e422",
+   "theme_ids": [
+    "parity"
+   ],
+   "intensity": 3,
+   "rationale": "Android navigation bar covers app navigation"
+  },
+  {
+   "record_id": "r_35fa2a391c849b97ee1e",
+   "theme_ids": [
+    "wrong-app"
+   ],
+   "intensity": 1,
+   "rationale": "Survey-taker comment on missing demographic options"
+  },
+  {
+   "record_id": "r_ec21822e8069f8397935",
+   "theme_ids": [
+    "wrong-app"
+   ],
+   "intensity": 2,
+   "rationale": "Rewards member pushed to donate points"
+  },
+  {
+   "record_id": "r_0b1c60441e8ac85857db",
+   "theme_ids": [
+    "wrong-app"
+   ],
+   "intensity": 3,
+   "rationale": "Rewards balance disappeared"
+  },
+  {
+   "record_id": "r_3ad6f459083d953fa468",
+   "theme_ids": [
+    "billing",
+    "support"
+   ],
+   "intensity": 3,
+   "rationale": "$1,800 charged; auto-payments; bot support; no refund"
+  },
+  {
+   "record_id": "r_04c929c449395ef9834a",
+   "theme_ids": [
+    "parity"
+   ],
+   "intensity": 3,
+   "rationale": "Menu sits under system buttons; unusable"
+  },
+  {
+   "record_id": "r_3641bb6b8974aae7eb4d",
+   "theme_ids": [
+    "wrong-app"
+   ],
+   "intensity": 3,
+   "rationale": "Rewards credits disappeared"
+  },
+  {
+   "record_id": "r_af9a649edd400820ad3b",
+   "theme_ids": [
+    "wrong-app"
+   ],
+   "intensity": 2,
+   "rationale": "Rewards no longer pays"
+  },
+  {
+   "record_id": "r_e9fb2d761318473e5ab5",
+   "theme_ids": [
+    "billing",
+    "support"
+   ],
+   "intensity": 2,
+   "rationale": "Convoluted cancellation; poor support"
+  },
+  {
+   "record_id": "r_8f9b5eee3015d3f10e47",
+   "theme_ids": [
+    "parity"
+   ],
+   "intensity": 3,
+   "rationale": "Editing and sharing do not load"
+  },
+  {
+   "record_id": "r_afd63a179a28d7c007f0",
+   "theme_ids": [
+    "ladder"
+   ],
+   "intensity": 1,
+   "rationale": "25-response cap and price"
+  },
+  {
+   "record_id": "r_21d990595b4cf5516490",
+   "theme_ids": [
+    "billing"
+   ],
+   "intensity": 2,
+   "rationale": "Hard to stop billing or get a refund"
+  },
+  {
+   "record_id": "r_07ea999a348d676611cf",
+   "theme_ids": [
+    "wrong-app"
+   ],
+   "intensity": 1,
+   "rationale": "Respondent trying to review a medical centre"
+  },
+  {
+   "record_id": "r_feb08688d8a6bfbc48fb",
+   "theme_ids": [
+    "paywall"
+   ],
+   "intensity": 3,
+   "rationale": "Nonprofit responses locked at 25; not told during creation"
+  },
+  {
+   "record_id": "r_c8c6f00874e2eb82a085",
+   "theme_ids": [
+    "ladder"
+   ],
+   "intensity": 1,
+   "rationale": "Caps and monthly price"
+  },
+  {
+   "record_id": "r_a2ca54aca2fbeff5ddb5",
+   "theme_ids": [],
+   "intensity": 0,
+   "rationale": "No experience yet"
+  },
+  {
+   "record_id": "r_4859862b47ebeb88e7cb",
+   "theme_ids": [],
+   "intensity": 0,
+   "rationale": "Ambiguous: unclear whether creator or survey-taker"
+  },
+  {
+   "record_id": "r_327e77e77b5de606a2fb",
+   "theme_ids": [
+    "ladder"
+   ],
+   "intensity": 1,
+   "rationale": "Basic plan cap; upgrade too expensive"
+  },
+  {
+   "record_id": "r_7e4f5794ddfebd8b2a6a",
+   "theme_ids": [
+    "wrong-app"
+   ],
+   "intensity": 1,
+   "rationale": "Expected payment for surveys"
+  },
+  {
+   "record_id": "r_27e6cade1cb3aee82685",
+   "theme_ids": [
+    "billing"
+   ],
+   "intensity": 3,
+   "rationale": "Charged two months after not renewing"
+  },
+  {
+   "record_id": "r_81d75eb528209ed52d90",
+   "theme_ids": [
+    "wrong-app"
+   ],
+   "intensity": 2,
+   "rationale": "Rewards member cannot log back in"
+  },
+  {
+   "record_id": "r_60ec5d1729c91ce4c943",
+   "theme_ids": [
+    "wrong-app"
+   ],
+   "intensity": 2,
+   "rationale": "Rewards account lost"
+  },
+  {
+   "record_id": "r_9e8f1b3f40726c29e70e",
+   "theme_ids": [
+    "wrong-app"
+   ],
+   "intensity": 1,
+   "rationale": "Survey-taker, early impression"
+  },
+  {
+   "record_id": "r_0af7785cd0f9090d807c",
+   "theme_ids": [
+    "parity"
+   ],
+   "intensity": 1,
+   "rationale": "Too few options on mobile"
+  },
+  {
+   "record_id": "r_fece1102081948ad9e46",
+   "theme_ids": [
+    "access"
+   ],
+   "intensity": 3,
+   "rationale": "Verification email never arrives"
+  },
+  {
+   "record_id": "r_71974c7003813e355f96",
+   "theme_ids": [
+    "billing"
+   ],
+   "intensity": 3,
+   "rationale": "Unrecognised recurring charge; may not be a SurveyMonkey product"
+  },
+  {
+   "record_id": "r_da32a7eb8e8dc038b4de",
+   "theme_ids": [
+    "access"
+   ],
+   "intensity": 2,
+   "rationale": "Aggressive device and account management"
+  },
+  {
+   "record_id": "r_a9bdba65854c748a749b",
+   "theme_ids": [
+    "paywall"
+   ],
+   "intensity": 2,
+   "rationale": "25-response limit found only at results"
+  },
+  {
+   "record_id": "r_36f6f6f1c196535d9ed2",
+   "theme_ids": [
+    "paywall"
+   ],
+   "intensity": 1,
+   "rationale": "Response charge not clear at start"
+  },
+  {
+   "record_id": "r_b317077dee9791976e01",
+   "theme_ids": [
+    "access"
+   ],
+   "intensity": 3,
+   "rationale": "Confirmation email not sent"
+  },
+  {
+   "record_id": "r_f57384a84afee6424c4b",
+   "theme_ids": [
+    "paywall"
+   ],
+   "intensity": 2,
+   "rationale": "Paywall on responses not disclosed"
+  },
+  {
+   "record_id": "r_b62263e5bc23a01dbffd",
+   "theme_ids": [
+    "parity"
+   ],
+   "intensity": 3,
+   "rationale": "Cannot create or save surveys"
+  },
+  {
+   "record_id": "r_c3f1ee9d896a6e82c3e4",
+   "theme_ids": [
+    "access"
+   ],
+   "intensity": 3,
+   "rationale": "Email verification failed for hours"
+  },
+  {
+   "record_id": "r_29fa9e38d92465ff12f3",
+   "theme_ids": [
+    "paywall"
+   ],
+   "intensity": 3,
+   "rationale": "Responses beyond 25 held"
+  },
+  {
+   "record_id": "r_401e1c1562d7078aef6a",
+   "theme_ids": [
+    "billing"
+   ],
+   "intensity": 3,
+   "rationale": "Charged despite auto-renewal off; refund refused"
+  },
+  {
+   "record_id": "r_27ad07a3e0729832c863",
+   "theme_ids": [
+    "wrong-app"
+   ],
+   "intensity": 0,
+   "rationale": "Survey-taker waiting to be paid"
+  },
+  {
+   "record_id": "r_f597859f4c5d733ff3eb",
+   "theme_ids": [
+    "access"
+   ],
+   "intensity": 3,
+   "rationale": "Login page does not load"
+  },
+  {
+   "record_id": "r_e24fd65ce66c91a09fc2",
+   "theme_ids": [],
+   "intensity": 0,
+   "rationale": "Marketing email volume; single record, no product theme"
+  },
+  {
+   "record_id": "r_03f2b523a4640ba050fc",
+   "theme_ids": [
+    "access"
+   ],
+   "intensity": 3,
+   "rationale": "\"Not found\" after login"
+  },
+  {
+   "record_id": "r_593dff1e3228e3d8aa1d",
+   "theme_ids": [
+    "wrong-app"
+   ],
+   "intensity": 2,
+   "rationale": "Sent a survey, sign-in shows creator app instead"
+  },
+  {
+   "record_id": "r_157ea5c0987b1d392af4",
+   "theme_ids": [
+    "access"
+   ],
+   "intensity": 3,
+   "rationale": "Verified email still blocks progress"
+  },
+  {
+   "record_id": "r_b17bc5d421b05bd94621",
+   "theme_ids": [
+    "parity"
+   ],
+   "intensity": 2,
+   "rationale": "Required-answer error shown on answered question"
+  },
+  {
+   "record_id": "r_764ed445b8db7c87743a",
+   "theme_ids": [
+    "access"
+   ],
+   "intensity": 3,
+   "rationale": "\"Not Found\" after password"
+  },
+  {
+   "record_id": "r_50ffc24807796e356a35",
+   "theme_ids": [
+    "support"
+   ],
+   "intensity": 1,
+   "rationale": "Wants a human agent"
+  },
+  {
+   "record_id": "r_8774d1aec050005ec847",
+   "theme_ids": [],
+   "intensity": 0,
+   "rationale": "No specific issue stated"
+  },
+  {
+   "record_id": "r_7c71a4ba3aa919830613",
+   "theme_ids": [
+    "support"
+   ],
+   "intensity": 3,
+   "rationale": "Invite email bug; support quotes weeks to fix"
+  },
+  {
+   "record_id": "r_c4ee1e3cc2725576f394",
+   "theme_ids": [
+    "paywall"
+   ],
+   "intensity": 3,
+   "rationale": "Annual plan needed to see responses past 25; not specified at creation"
+  },
+  {
+   "record_id": "r_61d826745578aa6dec9c",
+   "theme_ids": [
+    "billing"
+   ],
+   "intensity": 3,
+   "rationale": "Auto-renew re-enabled itself; $700, refund refused"
+  },
+  {
+   "record_id": "r_34dc836c2d08153529df",
+   "theme_ids": [
+    "paywall"
+   ],
+   "intensity": 3,
+   "rationale": "Responses blocked behind price plans"
+  },
+  {
+   "record_id": "r_f63172b91c9df84f0cac",
+   "theme_ids": [
+    "ladder"
+   ],
+   "intensity": 1,
+   "rationale": "Only worth it with money to spare"
+  },
+  {
+   "record_id": "r_395374ea6bfe1af408e6",
+   "theme_ids": [
+    "paywall"
+   ],
+   "intensity": 3,
+   "rationale": "Warned of limit only after reaching it"
+  },
+  {
+   "record_id": "r_30df1fbbafdcbbe4fcd2",
+   "theme_ids": [
+    "wrong-app"
+   ],
+   "intensity": 1,
+   "rationale": "Wants more paid surveys"
+  },
+  {
+   "record_id": "r_fb81097ec130026c80a5",
+   "theme_ids": [
+    "access",
+    "support"
+   ],
+   "intensity": 3,
+   "rationale": "Paid subscriber locked out; no phone support"
+  },
+  {
+   "record_id": "r_5148071b7be6983cf986",
+   "theme_ids": [],
+   "intensity": 0,
+   "rationale": "No experience yet"
+  },
+  {
+   "record_id": "r_7adaf6c8255915cd9d46",
+   "theme_ids": [
+    "parity",
+    "ladder"
+   ],
+   "intensity": 2,
+   "rationale": "Advanced options not visible on mobile even when paid"
+  }
+ ],
+ "themes": [
+  {
+   "id": "paywall",
+   "title": "The response limit appears only after the survey is already out",
+   "verdict": "Build",
+   "reasoning": "The largest group, and the one that turns a pricing decision into a trust problem. The cap itself is defensible; finding it after respondents have answered is not, because the customer can no longer undo the send or choose another tool. The number is known when the survey is created, so it can be shown then and while responses arrive. The cap has moved over the years (100, 40, 25, 10), so the fix is the disclosure, not a particular number.",
+   "beneficiary": "Occasional creators on the free plan who name themselves: students, clubs, nonprofits, families, small businesses.",
+   "cost": "Unknown; requires engineering estimate. Disclosure copy is likely smaller than a pricing change, but nothing here estimates it.",
+   "displaces": "Unknown pending strategy brief. The visible trade-off is free-to-paid conversion that currently happens at the moment of lock.",
+   "next_test": "Show the cap at creation and at send to a free-user cohort. Proceed if surprise-paywall contacts and refund requests fall by a threshold agreed before launch, while free-to-paid conversion drops by less than an agreed limit.",
+   "counterevidence": "Several reviewers accept the limit and object only to learning it late, e.g. \"I don’t have a problem with your 40 response limit\" (S064) and \"We don't mind paying for the service\" (S177), so disclosure alone may not stop the complaints about price. Older reviews describe caps no longer in force. Collection kept 1–3★ reviews only, so free users who saw the limit and were fine are invisible.",
+   "quotes": [
+    {
+     "record_id": "r_50aec3f84876b5771cd8",
+     "text": "When making the survey it never tells you this prior to completing it and sending it out."
+    },
+    {
+     "record_id": "r_feb08688d8a6bfbc48fb",
+     "text": "At no point in the creation and sending process were we informed we would only be able to see the first 25 responses without paying $400."
+    },
+    {
+     "record_id": "r_5ac3bff159d95cda853b",
+     "text": "I don’t have a problem with your 40 response limit, but I have a big problem with this being applied retroactively to surveys that were already running."
+    }
+   ],
+   "review_status": "proposed"
+  },
+  {
+   "id": "ladder",
+   "title": "Nothing between free and a hundred dollars a month",
+   "verdict": "Build",
+   "reasoning": "These are mostly not people refusing to pay. They are people with a one-off job who cannot find a plan shaped like it, and who leave for Google Forms rather than sign an annual contract for a single event. Several name the plan they would buy: per survey, per response band, or a cheaper monthly tier. That is a packaging change, not a product build.",
+   "beneficiary": "One-off and occasional creators who state their situation: students, small businesses, nonprofits, event organisers.",
+   "cost": "Unknown; requires pricing and billing estimate.",
+   "displaces": "Unknown pending strategy brief; a one-off plan could cannibalise Standard annual plans.",
+   "next_test": "Offer a single-survey or response-band price to users who hit the cap. Proceed if take-up and the resulting revenue beat the annual-plan conversions lost from the same cohort, using a margin fixed before the test.",
+   "counterevidence": "Price complaints come from free users of any paid tool, and several reviewers name a free alternative (Google Forms) they will use instead, so some of this group would not pay at any price. Willingness to pay is stated by only a few (e.g. S048). Nothing here shows the revenue at risk from a cheaper tier.",
+   "quotes": [
+    {
+     "record_id": "r_14c48d6e2f890dd363c7",
+     "text": "I wouldn’t mind paying $25-50 a month but $100 for a group of the size I need it for is illogical."
+    },
+    {
+     "record_id": "r_92440b55c248233dd5cb",
+     "text": "I just need one survey for 100 people."
+    },
+    {
+     "record_id": "r_a60232c1c578da04304e",
+     "text": "no good payment options for one time users"
+    }
+   ],
+   "review_status": "proposed"
+  },
+  {
+   "id": "access",
+   "title": "People cannot get into the app or their account",
+   "verdict": "Build",
+   "reasoning": "Every one of these is a person who had already chosen SurveyMonkey and could not start. Unlike crashes, it is still being reported in 2025–2026. Verification email delivery and a blank \"Not found\" screen after login on Android come up repeatedly and are the threads to pull first.",
+   "beneficiary": "New and returning creators on iOS and Android, including paying subscribers (S216).",
+   "cost": "Unknown; requires engineering estimate and email-delivery diagnostics.",
+   "displaces": "Unknown pending strategy brief.",
+   "next_test": "Measure verification-email delivery and post-login error rates in internal telemetry. Treat as confirmed if failure rates exceed a threshold agreed in advance; a fix succeeds if the rate falls below it for two release cycles.",
+   "counterevidence": "Many reports date from 2014–2018 and may describe sign-in flows since replaced. Reviewers cannot tell their own spam filtering, SSO setup or device from a product fault. Several sign-in reviews are satisfied users with a mild annoyance (S143). No telemetry is available to size the failure rate.",
+   "quotes": [
+    {
+     "record_id": "r_4f657519d1c7c3ed40e3",
+     "text": "I never received a verification email, and when I requested to resend the verification email the app reported an error."
+    },
+    {
+     "record_id": "r_64ca2bcf8e81a46e2605",
+     "text": "it let's me log in then says page not found"
+    },
+    {
+     "record_id": "r_fb81097ec130026c80a5",
+     "text": "I have a paid subscription but cannot use the service."
+    }
+   ],
+   "review_status": "proposed"
+  },
+  {
+   "id": "parity",
+   "title": "The app can show a survey but not work on it",
+   "verdict": "Watch",
+   "reasoning": "Real and well evidenced, but most of these reviewers are existing customers with the web app available, so the cost is friction rather than lost business. The narrow version is worth scoping: individual responses loading blank and question editing account for most of it. Full parity with the web is not the ask.",
+   "beneficiary": "Existing creators and subscribers who check or edit surveys on mobile.",
+   "cost": "Unknown; requires engineering estimate per feature.",
+   "displaces": "Unknown pending strategy brief.",
+   "next_test": "Check mobile usage of the individual-response and edit screens and their error rates. Move to Build if blank-load errors affect more than an agreed share of sessions.",
+   "counterevidence": "Several reviewers use the web as a working fallback and stay as customers (S084, S114). Many reports are from 2014–2019 and may describe screens since rebuilt. Some items are requests (filters, dashboards), not breakages.",
+   "quotes": [
+    {
+     "record_id": "r_d5c71c6bf68fc9a2b304",
+     "text": "stick with the desktop version until they can build a real, fully functional app."
+    },
+    {
+     "record_id": "r_3636fc285e8d6b11abb3",
+     "text": "You tap on a respondent, the page downloads, but the page is blank."
+    },
+    {
+     "record_id": "r_b245e289a30498f92190",
+     "text": "Overall Survey Monkey is an amazing tool and I enjoy the service and plan to continue as a customer."
+    }
+   ],
+   "review_status": "proposed"
+  },
+  {
+   "id": "billing",
+   "title": "Cancelling is harder than subscribing",
+   "verdict": "Build",
+   "reasoning": "Several reviewers describe repeated charges after an attempted cancellation, which is a regulatory exposure as much as a product complaint, and it lands on the same occasional customers the pricing theme is trying to win. A visible cancel path and a reminder before renewal are small, well-understood changes.",
+   "beneficiary": "Paying occasional users who bought one month or one term for a single project.",
+   "cost": "Unknown; requires billing and legal review.",
+   "displaces": "Unknown pending strategy brief; may reduce involuntary renewals revenue.",
+   "next_test": "Audit cancel-flow completion and post-cancel charge disputes. Proceed if disputes or chargebacks exceed an agreed rate, and judge the fix by that rate falling.",
+   "counterevidence": "Reviews are one side of a billing dispute. Some charges may be App Store or Google Play subscriptions the vendor cannot cancel directly. S189 describes a recurring charge for an ad blocker that may not be a SurveyMonkey product at all.",
+   "quotes": [
+    {
+     "record_id": "r_61d826745578aa6dec9c",
+     "text": "the auto renew option kept enabling itself after I disabled it."
+    },
+    {
+     "record_id": "r_fcc29ccfa5f8b532dbdf",
+     "text": "I have canceled my subscription four years in a row!!  They keep charging me."
+    },
+    {
+     "record_id": "r_27e6cade1cb3aee82685",
+     "text": "Paid for a one off month to get the most results, and then chose not to renew my account."
+    }
+   ],
+   "review_status": "proposed"
+  },
+  {
+   "id": "crashes",
+   "title": "The app crashes and takes the work with it",
+   "verdict": "Watch",
+   "reasoning": "The evidence is real but old: most of these reviews are from 2014 to 2022, and the recency term pushes the theme down for that reason, not out of doubt about severity. The common detail is lost work. Watch it against current crash telemetry, which the company has and this corpus does not.",
+   "beneficiary": "Creators building surveys on mobile.",
+   "cost": "Unknown; requires engineering estimate.",
+   "displaces": "Unknown pending strategy brief.",
+   "next_test": "Compare current crash-free session rate with the store-review trend. Move to Build if crash-free sessions fall below an agreed level.",
+   "counterevidence": "Almost no crash reports after 2022 in this corpus, which suggests the problem has been addressed. Device and OS details are rarely given.",
+   "quotes": [
+    {
+     "record_id": "r_5c69c6f9d01b17d61a54",
+     "text": "After spending close to half an hour working on a survey, when I tried to run the survey, the app kept crashing and crashing."
+    },
+    {
+     "record_id": "r_af7839f9e525b53039d8",
+     "text": "Every time I would open the app it would crash, and not even bother to save my work."
+    }
+   ],
+   "review_status": "proposed"
+  },
+  {
+   "id": "support",
+   "title": "Support is a bot, a queue or a paid feature",
+   "verdict": "Watch",
+   "reasoning": "Fewer reports, and support quality is not a roadmap item the way a paywall or cancel flow is. It earns a Watch because it compounds the other themes: the person locked out at login and the person double-charged both end up here. Most records in this theme are also counted under another theme.",
+   "beneficiary": "Paying subscribers and locked-out users who need a human answer.",
+   "cost": "Unknown; staffing cost not supplied.",
+   "displaces": "Unknown pending strategy brief.",
+   "next_test": "Measure time to first human response for billing and access tickets. Escalate if it exceeds an agreed limit.",
+   "counterevidence": "Small and overlapping: most of these records already count toward access or billing. Phone support limited to higher plans is a stated policy, not a defect.",
+   "quotes": [
+    {
+     "record_id": "r_7c71a4ba3aa919830613",
+     "text": "support is suggesting it will take weeks to fix the problem they caused."
+    },
+    {
+     "record_id": "r_f8b6616f6ed6518cf0e9",
+     "text": "I have to upgrade my account just to be able to call customer support."
+    }
+   ],
+   "review_status": "proposed"
+  },
+  {
+   "id": "wrong-app",
+   "title": "People arrive expecting to be paid for taking surveys",
+   "verdict": "Ignore",
+   "reasoning": "A large group of reviewers are not survey creators. They want SurveyMonkey Rewards, the panel that pays people to answer surveys, or they followed a survey link and were told to install an app. The roadmap for the creator app should not chase this. It is kept as a theme, rather than excluded, so that its size is visible and does not silently inflate other counts.",
+   "beneficiary": "Not this product's users: Rewards panel members and survey respondents.",
+   "cost": "Not estimated; out of scope for the creator app.",
+   "displaces": "Nothing; recommending no work.",
+   "next_test": "Check how many store installs come from survey-link install prompts. Revisit if that share is material.",
+   "counterevidence": "A slice of this group (S103, S120, S144, S203) are respondents sent a survey link who were pushed to install an app that cannot answer it. That is a real flow problem, and it may deserve a small fix even if the Rewards confusion does not.",
+   "quotes": [
+    {
+     "record_id": "r_265ad8ca5dcf6266655f",
+     "text": "I was directed to download this app, I did so thinking perhaps I needed it to complete the survey. NOPE."
+    },
+    {
+     "record_id": "r_61fb077de41a6c998b4f",
+     "text": "i can’t seem to find where i can take surveys"
+    },
+    {
+     "record_id": "r_3641bb6b8974aae7eb4d",
+     "text": "I had over $20 in credits and they just disappeared."
+    }
+   ],
+   "review_status": "proposed"
+  }
+ ]
+}

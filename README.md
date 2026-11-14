@@ -3,6 +3,14 @@ A Claude skill that collects **permitted public** product feedback, clusters it 
 
 By [Irene Pylypenko](https://irenepylypenko.com).
 
+## See a real report
+
+**[Open the SurveyMonkey example report →](https://codingyogini.github.io/heard-product-feedback/examples/surveymonkey/report.html)**
+
+It was built from 218 public App Store and Google Play reviews. It has eight themes, each with a proposed Build / Watch / Ignore call, the reasoning and counterevidence behind it, verbatim quotes linked to their sources, and a final decision that stays with a human reviewer. Files and method: [`examples/surveymonkey/`](examples/surveymonkey/).
+
+[![Heard report for SurveyMonkey: evidence boundaries, ranking weights, and the top theme with its Build call, counterevidence, quotes and human decision field](examples/surveymonkey/screenshot.png)](https://codingyogini.github.io/heard-product-feedback/examples/surveymonkey/report.html)
+
 ## Install in Claude Code
 
 ```
